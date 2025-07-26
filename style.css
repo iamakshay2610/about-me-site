@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
 /* Basic reset */
 * {
   margin: 0;
@@ -46,6 +53,13 @@ header h1 {
   color: #ffdd57; /* Yellow hover effect */
 }
 
+h2 {
+  color: #2e86de;
+  border-bottom: 2px solid #2e86de;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
 
 
 .hero {
@@ -69,6 +83,7 @@ header h1 {
   text-decoration: none;
   border-radius: 6px;
 }
+
 
 .skills {
   background-color: #f9f9f9;
